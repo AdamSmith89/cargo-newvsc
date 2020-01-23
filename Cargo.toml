@@ -16,4 +16,4 @@ edition = "2018"
 rust-embed="5.2.0"
 
 [badges]
-travis-ci = { repository = "AdamSmith89/cargo-newvcs", branch="master" }
+travis-ci = { repository = "AdamSmith89/cargo-newvsc", branch="master" }
