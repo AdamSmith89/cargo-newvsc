@@ -12,7 +12,7 @@ struct Asset;
 
 fn main() {
     let args = env::args();
-    let args = args.skip(1).collect::<Vec<_>>();
+    let args = args.skip(2).collect::<Vec<_>>();
 
     let mut command: Vec<_> = args.iter().map(|s| s.trim()).collect();
     command.insert(0, "new");
