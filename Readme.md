@@ -8,7 +8,7 @@ First uses `cargo new` to initialise a new package, with support for all paramet
 [Rust (rls)](https://github.com/rust-lang/rls-vscode) VSCode extension.
 
 # Install
-`cargo install cargo-newvsc --git https://github.com/AdamSmith89/cargo-newvsc`
+`cargo install cargo-newvsc`
 
 # Usage
 `cargo newvsc <any cargo new params>`
