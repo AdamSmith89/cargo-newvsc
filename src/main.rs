@@ -33,8 +33,8 @@ fn main() {
                     // It *should* look like "Created ... `project_dir` package"
                     let cargo_output = String::from_utf8_lossy(&output.stderr).to_owned();
                     let target_path = &cargo_output[
-                                        cargo_output.find("`").expect("Failed to parse target path from cargo new output") + 1..
-                                        cargo_output.rfind("`").expect("Failed to parse target path from cargo new output")];
+                                        cargo_output.find('`').expect("Failed to parse target path from cargo new output") + 1..
+                                        cargo_output.rfind('`').expect("Failed to parse target path from cargo new output")];
                     let target_path = canonicalize(target_path).expect("Failed to resolve path");
                     
                     let vscode_dir = target_path.join(".vscode");
