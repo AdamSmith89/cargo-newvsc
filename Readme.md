@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/AdamSmith89/cargo-newvsc.svg?branch=master)](https://travis-ci.org/AdamSmith89/cargo-newvsc)
+[![crates.io](https://img.shields.io/crates/v/cargo-newvsc.svg)](https://crates.io/crates/cargo-vsc)
 # Overview
 Drop-in replacement for `cargo new` when using VS Code.
 
