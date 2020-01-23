@@ -2,9 +2,18 @@
 name = "cargo-newvsc"
 version = "0.1.6-alpha.0"
 authors = ["Adam Smith <adamsmith2708@gmail.com>"]
+license = "MIT"
+description = "Cargo new extension for initialising VS Code tasks.json"
+keywords = ["cargo", "new", "vscode"]
+categories = ["development-tools::cargo-plugins"]
+repository = "https://github.com/AdamSmith89/cargo-newvsc"
+readme = "Readme.md"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rust-embed="5.2.0"
+
+[badges]
+travis-ci = { repository = "AdamSmith89/cargo-newvcs", branch="master" }
