@@ -16,6 +16,14 @@
         },
         {
             "type": "cargo",
+            "subcommand": "run",
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "none"
+        },
+        {
+            "type": "cargo",
             "subcommand": "test",
             "problemMatcher": [
                 "$rustc"

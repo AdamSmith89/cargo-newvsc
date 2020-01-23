@@ -2,10 +2,13 @@
 # Overview
 Drop-in replacement for `cargo new` when using VS Code.
 
-First uses `cargo new` to initialise a new package, with support for all parameters. Then deploys a basic `tasks.json` file with build & test tasks.
-# Usage
-`cargo install cargo-newvsc`
+First uses `cargo new` to initialise a new package, with support for all parameters. Then deploys a basic `tasks.json` file with build, run & test tasks.
 
-`cargo newvsc`
-# To Do
-- Further tasks or maybe a launch.json
+# Dependencies
+[Rust (rls)](https://github.com/rust-lang/rls-vscode) VSCode extension.
+
+# Install
+`cargo install cargo-newvsc --git https://github.com/AdamSmith89/cargo-newvsc`
+
+# Usage
+`cargo newvsc <any cargo new params>`
