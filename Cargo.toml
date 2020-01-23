@@ -1,6 +1,6 @@
 [package]
 name = "cargo-newvsc"
-version = "1.0.2"
+version = "1.0.3-alpha.0"
 authors = ["Adam Smith <adamsmith2708@gmail.com>"]
 license = "MIT"
 description = "Cargo new extension for initialising VS Code tasks.json"
