@@ -8,5 +8,4 @@ First uses `cargo new` to initialise a new package, with support for all paramet
 
 `cargo newvsc`
 # To Do
-- See if it can become `cargo newvsc` (without the dash) - might have to be a lib?
 - Further tasks or maybe a launch.json
